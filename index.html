@@ -2,111 +2,89 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>LE Marketing</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LEMARKETING | Digital Growth Solutions</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- NAVBAR -->
-<nav class="navbar">
-  <div class="logo">LE<span>Marketing</span></div>
-<section class="home-image">
-  <img src="images/code-glasses.jpg" alt="Website development and digital solutions">
-</section>
-  <div class="menu-toggle" id="menuToggle">☰</div>
-
-  <ul id="navMenu">
-    <li><a href="#home">Home</a></li>
-    <li><a href="#services">Services</a></li>
-    <li><a href="#catalogue">Catalogue</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
-
-<!-- HERO -->
-<header class="hero" id="home">
-  <div class="hero-overlay">
-    <h1>Grow Your Business Online</h1>
-    <p>Web Design • Branding • Digital Marketing</p>
-    <a href="#contact" class="btn">Get Started</a>
+<header class="hero">
+  <div class="hero-content">
+    <h1>LEMARKETING</h1>
+    <h2>Building Websites That Speak Volumes</h2>
+    <p>For people who make their mark.</p>
+    <p class="hero-text">
+      Your strategic digital partner for building powerful websites and brands that stand out online.
+    </p>
+    <div class="buttons">
+      <a href="https://wa.me/27692604468" class="btn primary">WHATSAPP US</a>
+      <a href="#contact" class="btn secondary">GET IN TOUCH</a>
+    </div>
   </div>
 </header>
 
-<!-- SERVICES -->
-<section class="section" id="services">
+<section class="section">
+  <h2>Your Brand’s Journey Starts Here</h2>
+  <p>
+    Unleash your brand’s potential with LEMARKETING’s tailored strategies for digital growth and strong online presence.
+  </p>
+</section>
+
+<section class="section dark">
+  <h2>The Team That Builds Stronger Digital Connections</h2>
+  <p>
+    We are a small, dedicated team turning ideas into experiences and visions into realities.
+  </p>
+</section>
+
+<section class="section">
+  <h2>Empower Your Brand With Our Expertise</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Efficiency</h3>
+      <p>Strategic time management and quality delivery.</p>
+    </div>
+    <div class="card">
+      <h3>Creativity</h3>
+      <p>Innovative design in every pixel.</p>
+    </div>
+    <div class="card">
+      <h3>Accountability</h3>
+      <p>Promises made are promises kept.</p>
+    </div>
+    <div class="card">
+      <h3>Strategic Connections</h3>
+      <p>Digital experiences that resonate and convert.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section dark">
   <h2>Our Services</h2>
+  <ul class="services">
+    <li>Website Design</li>
+    <li>Website Development</li>
+    <li>Digital Marketing</li>
+    <li>Branding & Logo Design</li>
+  </ul>
+</section>
 
-  <div class="cards">
-    <div class="card">
-      <img src="images/web-design.jpg" alt="Website Design">
-      <h3>Website Design</h3>
-      <p>Modern, responsive websites built to convert visitors into customers.</p>
-    </div>
-
-    <div class="card">
-      <img src="images/branding.jpg" alt="Branding">
-      <h3>Branding</h3>
-      <p>Professional logos and brand identity that make your business stand out.</p>
-    </div>
-
-    <div class="card">
-      <img src="images/marketing.jpg" alt="Digital Marketing">
-      <h3>Digital Marketing</h3>
-      <p>Social media and online strategies that drive real business growth.</p>
-    </div>
+<section class="section">
+  <h2>Testimonials</h2>
+  <div class="testimonials">
+    <p>“LEMARKETING transformed our online presence completely.”</p>
+    <p>“Creative, professional, and reliable service.”</p>
+    <p>“Everything was done with care and professionalism.”</p>
   </div>
 </section>
 
-<!-- CATALOGUE -->
-<section class="section dark" id="catalogue">
-  <h2>Website Packages</h2>
+<footer id="contact">
+  <p>📞 082 338 5749</p>
+  <p>📧 localexpansionmarketing@gmail.com</p>
+  <p>💬 WhatsApp: +27 69 260 4468</p>
+  <p>📍 South Africa</p>
+  <p>© LEMARKETING — All Rights Reserved</p>
+</footer>
 
-  <div class="cards">
-    <div class="card price">
-      <h3>Starter</h3>
-      <p class="price-tag">R3,100</p>
-      <p>1–3 Pages<br>WhatsApp Button<br>Fast Delivery</p>
-    </div>
-
-    <div class="card price">
-      <h3>Business</h3>
-      <p class="price-tag">R6,500</p>
-      <p>4–6 Pages<br>Gallery + Contact Form</p>
-    </div>
-
-    <div class="card price">
-      <h3>Premium</h3>
-      <p class="price-tag">R15,500</p>
-      <p>Up to 10 Pages<br>Booking or Store</p>
-    </div>
-  </div>
-</section>
-
-<!-- CONTACT -->
-<section class="section" id="contact">
-  <h2>Contact Us</h2>
-
-  <form name="contact" method="POST" data-netlify="true">
-    <input type="hidden" name="form-name" value="contact">
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Your Email" required>
-    <textarea name="message" placeholder="Your Message"></textarea>
-    <button type="submit">Send Message</button>
-  </form>
-
-  <p class="email">📧 localexpansionmarketing@gmail.com</p>
-</section>
-
-<!-- WHATSAPP BUTTON -->
-<a href="https://wa.me/27692604468" class="whatsapp-float" target="_blank">💬</a>
-<script>
-  const menuToggle = document.getElementById("menuToggle");
-  const navMenu = document.getElementById("navMenu");
-
-  menuToggle.addEventListener("click", () => {
-    navMenu.classList.toggle("show");
-  });
-</script>
 </body>
 </html>
