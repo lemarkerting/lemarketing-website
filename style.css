@@ -18,7 +18,7 @@ body {
   width: 100%;
   height: 70vh;
   object-fit: cover;
-  display: block;
+  display: img play;
 }
 /* NAVBAR */
 .logo img {
