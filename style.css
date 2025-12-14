@@ -4,6 +4,10 @@
   padding: 0;
   font-family: Arial, sans-serif;
 }
+}
+body {
+  color: #111;
+}
 .home-image {
   width: 100%;
   margin: 0;
@@ -16,10 +20,6 @@
   object-fit: cover;
   display: block;
 }
-body {
-  color: #111;
-}
-
 /* NAVBAR */
 .logo img {
   height: 45px;
