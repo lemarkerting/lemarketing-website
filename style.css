@@ -10,6 +10,10 @@ body {
 }
 
 /* NAVBAR */
+.logo img {
+  height: 45px;
+  width: auto;
+}
 .navbar {
   position: fixed;
   width: 100%;
@@ -127,6 +131,11 @@ input, textarea, button {
   margin: 10px 0;
 }
 
+@media (max-width: 768px) {
+  .logo img {
+    height: 38px;
+  }
+}
 button {
   background: orange;
   border: none;
