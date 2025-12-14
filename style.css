@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #1f2933;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #0b2545;
+}
+
+.header nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: linear-gradient(120deg, #ff7a18, #ffb347);
+  padding: 100px 40px;
+  color: white;
+  text-align: left;
+}
+
+.hero h1 {
+  font-size: 48px;
+}
+
+.btn {
+  display: inline-block;
+  background: #0b2545;
+  color: white;
+  padding: 12px 25px;
+  margin-top: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.services, .catalogue, .contact {
+  padding: 60px 40px;
+}
+
+.service-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background: #f4f4f4;
+  padding: 30px;
+  border-radius: 8px;
+  flex: 1;
+  font-weight: bold;
+}
+
+form input, form textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+}
+
+button {
+  background: #ff7a18;
+  border: none;
+  padding: 12px 25px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+footer {
+  background: #0b2545;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
