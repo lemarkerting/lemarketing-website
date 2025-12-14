@@ -1,0 +1,8 @@
+LEmarketing/
+│
+├── index.html
+├── style.css
+├── script.js   (if you have one)
+│
+└── images/
+    └── code-glasses.jpg
