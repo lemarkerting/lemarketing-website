@@ -157,3 +157,36 @@ button {
     padding: 30px;
   }
 }
+/* MOBILE MENU */
+.menu-toggle {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .navbar ul {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: black;
+    width: 100%;
+    flex-direction: column;
+    display: none;
+    text-align: center;
+  }
+
+  .navbar ul.show {
+    display: flex;
+  }
+
+  .navbar ul li {
+    padding: 15px 0;
+    border-top: 1px solid #222;
+  }
+}
