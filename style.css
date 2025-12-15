@@ -162,7 +162,7 @@ footer {
 /* ===== SERVICES CARDS (LIKE EXAMPLE) ===== */
 
 .services-section {
-  background: #0f0f0f;
+  background: white;
 }
 
 .services-grid {
@@ -220,7 +220,7 @@ footer {
   fill: #7e22ce;
 }
 .contact-section {
-  background: #ffedd5;
+  background: white;
   padding: 70px 20px;
   display: flex;
   justify-content: center;
