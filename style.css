@@ -219,3 +219,65 @@ footer {
 .contact-item:hover .icon {
   fill: #7e22ce;
 }
+.contact-section {
+  background: #ffedd5;
+  padding: 70px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-card {
+  background: white;
+  max-width: 420px;
+  width: 100%;
+  padding: 40px 25px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.contact-card h2 {
+  color: #f97316;
+  margin-bottom: 30px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 15px 0;
+  font-size: 18px;
+  color: #1f2933;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.contact-item:hover {
+  color: #ea580c;
+}
+
+.icon {
+  width: 26px;
+  height: 26px;
+  fill: #f97316;
+}
+
+.whatsapp {
+  background: #f97316;
+  color: white;
+  padding: 14px;
+  border-radius: 50px;
+}
+
+.whatsapp .icon {
+  fill: white;
+}
+
+.whatsapp:hover {
+  background: #ea580c;
+}
+
+.no-link {
+  cursor: default;
+}
