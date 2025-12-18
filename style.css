@@ -217,3 +217,53 @@ body {
     transform: translateY(0);
   }
 }
+.step-number {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  width: 26px;
+  height: 26px;
+  background: #f2c94c;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  font-weight: bold;
+  font-size: 13px;
+  color: #333;
+}
+
+/* Stack numbers */
+.step-number span {
+  position: absolute;
+  opacity: 0;
+  animation: numberFloat 8s infinite;
+}
+
+/* Timing for each number */
+.step-number span:nth-child(1) { animation-delay: 0s; }
+.step-number span:nth-child(2) { animation-delay: 2s; }
+.step-number span:nth-child(3) { animation-delay: 4s; }
+.step-number span:nth-child(4) { animation-delay: 6s; }
+
+@keyframes numberFloat {
+  0% {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  10% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  40% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  100% {
+    opacity: 0;
+  }
+  }
